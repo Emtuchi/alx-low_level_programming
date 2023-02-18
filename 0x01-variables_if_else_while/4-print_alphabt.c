@@ -7,13 +7,13 @@ int main(void)
 {
 	char lc;
 
-	for (lc = "a"; lc = "z"; lc++)
-	{
-		if (lc != 'q' && lc != 'q')
-			putchar(lc);
-	}
-
+	lc = 'a';
+	while
+		(lc <= 'z') {
+			if ((lc != 'q' && lc != 'e') && c <= 'z')
+				putchar(c);
+			c++;
+		}
 	putchar('\n');
-
 	return (0);
 }
