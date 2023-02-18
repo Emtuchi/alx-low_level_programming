@@ -10,7 +10,7 @@ int main(void)
 	lc = 'a';
 	while
 		(lc <= 'z') {
-			if ((lc != 'q' && lc != 'e') && c <= 'z')
+			if ((lc != 'q' && lc != 'e') && lc <= 'z')
 				putchar(c);
 			c++;
 		}
