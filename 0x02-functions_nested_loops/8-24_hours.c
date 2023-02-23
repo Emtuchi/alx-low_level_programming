@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * jack_bauer - prototype fxn that print every minute of a 24 hour period
  *
