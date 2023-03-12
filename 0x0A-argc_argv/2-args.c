@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - program that prints its name, followed by a new line.
- * @argc: size of program arguments.
- * @argv: string pointer array to the arguments.
+ * main - program that prints all arguments it receives.
+ * @argc: number of arguments
+ * @argv: array of pointer string.
  *
- * Return: Always o.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
@@ -18,3 +18,4 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
+
