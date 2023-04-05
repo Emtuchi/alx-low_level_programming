@@ -19,5 +19,5 @@ size_t listint_len(const listint_t *h)
 		tmp = tmp->next;
 	}
 
-	return (count)
+	return (count);
 }
