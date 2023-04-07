@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_list - prints the element of a list
+ * list_len - prints the element of a list
  * @h: the list pointer
  *
- * return: the number of nodes in h
+ * Return: the number of nodes in h
  */
 
 size_t list_len(const list_t *h)
