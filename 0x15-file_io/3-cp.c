@@ -23,11 +23,11 @@ char *mk_buf(char *f)
 }
 
 /**
- * close - closes file
+ * close_file - closes file
  * @f: file num
  */
 
-void close(int f)
+void close_file(int f)
 {
 	int i;
 
@@ -36,7 +36,7 @@ void close(int f)
 	if (i == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close f %d\n", f);
-		exit(100)
+		exit(100);
 	}
 }
 
@@ -86,8 +86,8 @@ int main(int argc, char *argv[])
 	}
 
 	free(buf);
-	close(from);
-	close(to);
+	close_file(from);
+	close_file(to);
 
 	return (0);
 }
